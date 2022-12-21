@@ -22,5 +22,7 @@ public class log4j {
 	  log.info("Browser window maximize");
 	  driver.get("https://www.google.com");
 	  log.info("enter the google url");
+	  driver.get("https://www.gmail.com");
+	  log.info("enter the gmail");
   }
 }
